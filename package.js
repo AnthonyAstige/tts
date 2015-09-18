@@ -19,7 +19,7 @@ Package.onUse(function(api) {
 
 	api.addFiles([
 		'export.js',
-		'anthony-tts.js'
+		'tts.js'
 	]);
 
 	api.export('TTS');

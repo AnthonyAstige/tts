@@ -7,7 +7,7 @@
 ## What is this
 Simple package that abstracts Text To Speech
 
-Primarily a wrapper for SpeechSynthesisUtterance.  See [browser compatabilitity] (http://caniuse.com/#search=SpeechSynthesisUtterance)
+Primarily a wrapper for SpeechSynthesisUtterance.  See [browser compatabilitity] (http://caniuse.com/#search=SpeechSynthesisUtterance).
 
 * Note: Safari calls must be triggered by user action.
 

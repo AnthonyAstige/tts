@@ -8,5 +8,6 @@ TTS.speak = function(string) {
 	uu.rate = 0.8;
 	uu.voiceURI = 'native';
 	uu.volume = 1;
+	window.speechSynthesis.cancel();
 	window.speechSynthesis.speak(uu);
 };

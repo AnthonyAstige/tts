@@ -2,7 +2,7 @@
 /* global TTS, SpeechSynthesisUtterance */
 
 TTS.speak = function(string) {
-	if (SpeechSynthesisUtterance) {
+	if (typeof SpeechSynthesisUtterance !== 'undefined') {
 		var uu = new SpeechSynthesisUtterance(string);
 		uu.lang = 'en-US';
 		uu.pitch = 1;

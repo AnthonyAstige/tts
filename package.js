@@ -3,7 +3,7 @@
 
 Package.describe({
   summary: 'Text To Speech (Simple wrapper of SpeechSynthesisUtterance for now)',
-  version: '0.0.1',
+  version: '0.0.2',
   name:'anthonyastige:tts',
   git:'git@github.com:AnthonyAstige/tts.git'
 });
